@@ -21,3 +21,115 @@ body {
 .list {
     list-style: none;
 }
+/*Дизайн логотипу*/
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+.logopart-studio {
+    color: #292929;
+}
+/*Дизайн меню навыгації*/
+.site-navigation .link {
+    color: var(--title-main-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .site-navigation .link:hover,
+  .site-navigation .link:focus,
+  .site-navigation .link:active {
+    color: var(--accent-color);
+  }
+/*Дизайн контактів в хедері*/
+.header-contacts .link-contacts {
+    color: var(--text-main-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+.header-contacts .link-contacts:hover,
+.header-contacts .link-contacts:focus {
+  color: var(--accent-color);
+}
+/*Дизайн блоку замовлення послуги*/
+.title-order-block {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .order-block {
+    background-color: var(--background-secondary-color);
+  }
+  
+  .btn-order-block {
+    color: #ffffff;
+    background-color: var(--button-background-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  /*Дизайн блоку переваг*/
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .befits-block-title {
+    color: var(--title-main-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  
+  .befits-block-descr {
+    color: var(--text-main-color);
+    line-height: 1.71;
+  } 
+/*Дизайн секцій "Що ми робимо" та "Наша команда"*/
+.whatwedo-title {
+    color: var(--title-main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;    
+    letter-spacing: 0.03em;
+  }
+.our-staff-title {
+    color: var(--title-main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;    
+    letter-spacing: 0.03em;
+}
+.staff-name {
+    color: var(--title-main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+.staff-position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+.footer-block {
+    background-color: var(--background-secondary-color);
+}
