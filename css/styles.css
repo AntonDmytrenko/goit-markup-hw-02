@@ -1,0 +1,23 @@
+/* змінні */
+:root {
+    --text-main-color: #757575;
+    --title-main-color: #212121;
+    --accent-color: #2196f3;
+    --background-main-color: #ffffff;
+    --background-secondary-color: #2f303a;
+    --button-background-color: #2196f3;
+  }
+/*головні стилі сторінок*/
+body {
+    color: var(--text-main-color);
+    background-color: var(--background-main-color);
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    /* font-style: normal; */
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+/*відключення крапок у списках*/
+.list {
+    list-style: none;
+}
