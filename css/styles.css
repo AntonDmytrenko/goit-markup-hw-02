@@ -145,9 +145,7 @@ body {
     text-decoration: none;
 }
 .footer-block .link-contacts-footer:hover,
-.footer-block .link-contacts-footer:focus,
-.footer-block .adress-footer:hover,
-.footer-block .adress-contacts-footer:focus {
+.footer-block .link-contacts-footer:focus {
   color: var(--accent-color);
 }
 /*Дизайн кнопок-фільтрів портфоліо*/
